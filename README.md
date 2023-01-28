@@ -108,7 +108,7 @@ phpinfo();
 ```
 sudo chown -R nginx:nginx /home/user/public_html
 sudo chmod -R 755 /home/user/public_html
-``
+```
 
 ### Membuat VirtualHost NGINX ```nano /etc/nginx/conf.d/pretestsiat.com.conf```
 
