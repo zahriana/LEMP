@@ -114,10 +114,10 @@ sudo chmod -R 755 /home/user/public_html
 
 ```
 server {
-    listen       80;
-    server_name  server_domain_or_IP;
+    listen 80;
+    server_name  prestestsiat.com www.pretestsiat.com;
 
-    root   /usr/share/nginx/html;
+    root   /home/user/public_html;
     index index.php index.html index.htm;
 
     location / {
@@ -127,7 +127,7 @@ server {
     error_page 500 502 503 504 /50x.html;
 
     location = /50x.html {
-        root /usr/share/nginx/html;
+        root /home/user/public_html;
     }
 
     location ~ \.php$ {
