@@ -138,17 +138,17 @@ server {
         include fastcgi_params;
     }
 }
-````
+```
 
 ### Check dan Restart Nginx
 
 ```
 sudo nginx -t
 sudo systemctl restart nginx
-``
+```
 
 ### Install LetsEncrypt SSL dan enable HTTPS beserta HTTP/2 virtual host
 ``` 
 sudo dnf install certbot python3-certbot-nginx
 sudo certbot --nginx
-``
+```
