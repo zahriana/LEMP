@@ -110,12 +110,12 @@ sudo chown -R nginx:nginx /home/user/public_html
 sudo chmod -R 755 /home/user/public_html
 ```
 
-### Membuat VirtualHost NGINX ```nano /etc/nginx/conf.d/pretestsiat.com.conf```
+### Membuat VirtualHost NGINX ```nano /etc/nginx/conf.d/testsite.com.conf```
 
 ```
 server {
     listen 80;
-    server_name  prestestsiat.com www.pretestsiat.com;
+    server_name  testsite.com www.testsite.com;
 
     root   /home/user/public_html;
     index index.php index.html index.htm;
