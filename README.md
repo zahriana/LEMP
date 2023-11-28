@@ -1,4 +1,4 @@
-# LEMP - PRETEST SIAT DEV
+# LEMP Stack CentOS
 
 ## Update Core System
 
